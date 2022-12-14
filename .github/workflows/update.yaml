@@ -46,6 +46,9 @@ jobs:
         get_medichecks_products() |>
           products_to_products_info_tibble() |>
           readr::write_csv("output/products.csv")
+
+        get_medichecks_biomarkers() |>
+          readr::write_csv("output/biomarkers.csv")
       shell: Rscript {0}
 
     - name: Commit new output
