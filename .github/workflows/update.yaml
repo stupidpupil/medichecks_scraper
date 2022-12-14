@@ -43,11 +43,14 @@ jobs:
     - name: Update output
       run: |
         devtools::load_all()
-        get_medichecks_products() |>
-          products_to_products_info_tibble() |>
+        products <- get_medichecks_products() |>
+          products_to_products_info_tibble() 
+
+        products |>
           readr::write_csv("output/products.csv")
 
         get_medichecks_biomarkers() |>
+          dplyr::filter(biomarker_handle %in% colnames(products)) |>
           readr::write_csv("output/biomarkers.csv")
       shell: Rscript {0}
 
