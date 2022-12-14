@@ -25,7 +25,8 @@ get_medichecks_biomarkers <- function(){
 		"Haematology",
 		"Red Blood Cells",
 		"White Blood Cells",
-		"Clotting Status"
+		"Clotting Status",
+		"Trace Elements"
 
 	) |> stringr::str_replace_all(" ", "+")
 
