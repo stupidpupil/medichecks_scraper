@@ -1,4 +1,4 @@
-get_medicheck_biomarkers <- function(){
+get_medichecks_biomarkers <- function(){
 
 	base_url <- "https://medichecks-production.pwaify.com/api/public/biomarker-category?name="
 
