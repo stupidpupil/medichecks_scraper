@@ -7,3 +7,5 @@ get_medichecks_biomarkers() |>
   readr::write_csv("biomarkers.csv")
 
 ```
+
+Sibling of [medichecks_optimiser](https://github.com/stupidpupil/medichecks_optimiser)
