@@ -31,7 +31,7 @@ list_from_medichecks_product_json <- function(medichecks_product_json){
     ("collection_method_blood_delivery" %in% tags) ~ FALSE,
     ("collection_method_blood_in-store" %in% tags) ~ TRUE,
     ("collection_method_blood_nurse-visit" %in% tags) ~ TRUE,
-
+    ("collection_method_london_clinic" %in% tags) ~ TRUE,
     # Pre 22 December 2022
     !("escmed|Sample Type|Blood" %in% tags) ~ NA,
     ("collectionMethod%Finger prick" %in% tags) ~ FALSE,
