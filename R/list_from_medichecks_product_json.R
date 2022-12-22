@@ -4,11 +4,15 @@ list_from_medichecks_product_json <- function(medichecks_product_json){
   title <- medichecks_product_json$title
   handle <- medichecks_product_json$handle
 
-  biomarkers <- medichecks_product_json$body_html |> 
-    stringr::str_extract_all("\\|biomarkers[\\-a-z0-9]+?\\|", simplify=TRUE) |>
-    stringr::str_remove("^\\|biomarkers\\-") |>
-    stringr::str_remove("\\|$") |>
-    unique()
+
+  # Pre 22 December 2022
+  #biomarkers <- medichecks_product_json$body_html |> 
+  #  stringr::str_extract_all("\\|biomarkers[\\-a-z0-9]+?\\|", simplify=TRUE) |>
+  #  stringr::str_remove("^\\|biomarkers\\-") |>
+  #  stringr::str_remove("\\|$") |>
+  #  unique()
+
+  biomarkers <- purrr::possibly(get_biomarkers_for_medichecks_product, character(0))(handle)
 
   #stopifnot(length(biomarkers) >= 1)
   #stopifnot(length(biomarkers) <= 199)
@@ -24,6 +28,11 @@ list_from_medichecks_product_json <- function(medichecks_product_json){
   tags <- medichecks_product_json$tags |> stringr::str_split(",\\s*", simplify=TRUE)
 
   venous_only <- dplyr::case_when(
+    ("collection_method_blood_delivery" %in% tags) ~ FALSE,
+    ("collection_method_blood_in-store" %in% tags) ~ TRUE,
+    ("collection_method_blood_nurse-visit" %in% tags) ~ TRUE,
+
+    # Pre 22 December 2022
     !("escmed|Sample Type|Blood" %in% tags) ~ NA,
     ("collectionMethod%Finger prick" %in% tags) ~ FALSE,
     ("collectionMethod%Venous" %in% tags) ~ TRUE,

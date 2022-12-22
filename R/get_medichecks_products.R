@@ -11,7 +11,7 @@ get_medichecks_products <- function(){
     new_products <- jsonlite::read_json(url_with_page)$products
 
     new_products <- new_products |> 
-      purrr::discard(function(p){p$product_type %in% c("Gift Cards", "Collection Method", "Clinic")})
+      purrr::discard(function(p){p$product_type %in% c("Gift Cards", "Collection Method", "Clinic", "")})
 
     new_products <- new_products |>
       purrr::map(function(p){list_from_medichecks_product_json(p)})
