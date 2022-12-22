@@ -2,7 +2,6 @@ biomarker_handle,name,short_description,category
 creatinine,Creatinine,"Creatinine is a chemical waste molecule that is generated from normal muscle break down. Sportspeople can therefore have higher levels than the average person.  Creatinine is cleared from the kidneys and so is also an accurate marker of kidney function, and may help in diagnosing kidney disease.",Kidney Health
 urea,Urea,"Urea is a waste product produced by the body when it breaks down proteins in the liver. Once the urea is made, it is transported to the kidneys, which filter it out of the blood and remove it from the body in the form of urine. Measuring the levels of urea in the blood can therefore reflect how well both the liver and the kidneys, are functioning. It is important to note that even if one kidney is severely damaged but the other is functioning perfectly, results may still return as normal.",Kidney Health
 egfr,eGFR,"The estimated glomerular filtration rate (eGFR) assesses how well the kidneys are working by estimating the amount of blood filtered through the kidneys. The glomeruli are tiny filters in the kidneys responsible for removing waste products. If these filters do not do their job properly, kidney function can be impaired. The eGFR calculation is an estimate of actual glomerular filtration rate, calculated using your age, gender, ethnicity, and serum creatinine levels.",Kidney Health
-blood-urea-nitrogen-1,Blood Urea Nitrogen,NA,Kidney Health
 creatinine-urine,Creatinine - Urine,"Creatinine is a chemical waste molecule that is generated from normal muscle metabolism. Measurement of this is an indicator of the levels of other waste products in the body. Creatinine is also an accurate marker of kidney function, and may help in diagnosing kidney disease.",Kidney Health
 microalbumin-urine,Microalbumin - Urine,"Albumin is one of the commonest proteins in the blood and is usually either not present, or present at extremely low levels in the urine. Increases in the quantity of albumin in the urine can be an early indicator of chronic kidney disease. 
 
@@ -44,7 +43,6 @@ You can make dramatic changes to your cholesterol levels through diet and traini
 You can use HDL and LDL (and non-HDL) results as markers and targets for improvement. Regular exercise will help get the LDL down and the HDL up, in particular cardio and resistance training exercises. A Mediterranean diet which is high in vegetables and oily fish, and low in meat and dairy, will also help to optimise cholesterol levels.",Cholesterol Status
 apolipoprotein-a1,Apolipoprotein A1,"Apolipoprotein A1, or ApoA1 is a major protein that is a component of high-density lipoprotein, or HDL cholesterol. It helps clear cholesterol from the blood by removing cholesterol from organs and tissues to be destroyed by the liver.",Cholesterol Status
 apolipoprotein-b,Apolipoprotein B,"Apolipoprotein B, or ApoB is the primary apolipoprotein of low-density lipoproteins (LDL or bad cholesterol). It is responsible for carrying cholesterol to tissues.",Cholesterol Status
-lipoproteina,Lipoprotein(a),"Lipoproteins transport cholesterol and triglycerides in the blood. Lipoprotein(a) which is also known as Lp(a) is a risk factor for heart disease especially when LDL cholesterol is also raised. Lp(a) can accelerate the development of plaques forming in the arteries, which narrow and harden the arteries. The concentration of Lp(a) within the blood is genetically determined and will remain fairly constant in an individual over their lifetime.",Cholesterol Status
 lp-pla2,Lp PLA2,"The enzyme lipoprotein-associated phospholipase A2 (Lp-PLA2) plays a role in the inflammation of blood vessels, promoting the buildup of plaque in the coronary arteries. Lp-PLA2 is a risk marker for cardiovascular disease and because it is produced in the plaque itself, Lp-PLA2 is thought to be more sensitive at assessing cardiovascular disease risk than traditional inflammatory markers, such as CRP.",Cholesterol Status
 vldl-cholesterol,VLDL Cholesterol,NA,Cholesterol Status
 apob-apoa-ratio,ApoB : ApoA ratio,"The apoB/apoA ratio (apo-ratio) looks at how much unhealthy Apolipoprotein B is within the blood, and divides this by how much protective Apolipoprotein A-I is present. A low number (typically below 1) is considered optimal, with results higher than this suggesting an increase in the risk of experiencing a heart attack or stroke in the future.",Cholesterol Status
@@ -53,11 +51,6 @@ total-cholesterol,Total Cholesterol,"Cholesterol is an essential fat (lipid) in 
 Fats are the primary energy source for endurance events or when carbohydrate energy sources are low. In particular medium-chain fatty acids are heavily utilised. Cholesterol transports fatty acids around the body and by looking at the levels of the different types of cholesterol we can get an insight into your health and cardiovascular risk (i.e. the buildup of cholesterol in blood vessels leading to blood vessel narrowing, heart attack and stroke).
 
 The liver regulates cholesterol levels in the body; it both synthesizes it and removes it, it also synthesises various lipoproteins that transport cholesterol throughout the body – and it is these that we measure in the cholesterol test.",Cholesterol Status
-hdl-cholesterol-1,HDL Cholesterol,"HDL cholesterol, or High Density Lipoprotein is a molecule in the body which removes cholesterol from the bloodstream and transports it to the liver where it is broken down and removed from the body in bile. HDL cholesterol is commonly known as 'good cholesterol'.
-
-You can make dramatic changes to your cholesterol levels through diet and training. And just like with the diabetes checks, if you can improve your levels you can hopefully prevent getting serious, possibly even fatal conditions down the line. 
-
-You can use HDL and LDL (and non-HDL) results as markers and targets for improvement. Regular exercise will help get the LDL down and the HDL up, in particular cardio and resistance training exercises. A Mediterranean diet which is high in vegetables and oily fish, and low in meat and dairy, will also help to optimise cholesterol levels.",Cholesterol Status
 ldl-7-subfractions,LDL - 7 Subfractions,"This test will report on the levels of LDL types 1 and 2 which are the larger LDL particles, and LDL types 3 through 7 which are the smaller denser particles that are more strongly associated with atheroma formation.",Cholesterol Status
 crp,CRP,C Reactive Protein (CRP) is a protein made in the liver in response to inflammation or infection in the body.,Inflammation
 esr,ESR,"ESR (Erythrocyte Sedimentation Rate) is a non-specific inflammation marker. It measures the rate at which red blood cells fall to the bottom of a tube. The blood cells fall quicker during inflammation, as there are more proteins in the blood, caused by the inflammation. It is said to be nonspecific because increases do not indicate exactly where the inflammation in your body is, or what is causing it, and also because it can be affected by other conditions other than inflammation.",Inflammation
@@ -84,7 +77,6 @@ You get your iron from two main sources: from your diet (about 5%) and from the 
 
 Iron status tests look at several measures of iron, which together can paint a picture about your iron metabolism and what it means for you.",Iron Status
 tibc,TIBC,Total iron-binding capacity (TIBC) is a measure of the ability of your body to efficiently carry iron through the blood.,Iron Status
-transferrin-saturation-1,Transferrin Saturation,Transferrin is made in the liver and is the major protein in the blood which binds to iron and transports it round the body. This test measures how much this protein is 'saturated' by iron.,Iron Status
 uibc,UIBC,Unsaturated iron binding capacity (UIBC) represents the portion of iron binding sites on transferrin that are not occupied by iron. UIBC is often measured along with iron and total iron-binding capacity (TIBC) as a diagnostic tool to determine various iron disorders.,Iron Status
 oestradiol,Oestradiol,"Oestradiol is a female steroid hormone, produced in the ovaries of women and to a much lesser extent in the testes of men. It is the strongest of three oestrogens and is responsible for the female reproductive system as well as the growth of breast tissue and bone thickness. In pre-menopausal women, oestradiol levels vary throughout the monthly cycle, peaking at ovulation. In women, oestradiol levels decline with age, culminating with the menopause when the ovaries stop producing eggs. Low oestradiol can cause many symptoms associated with the menopause, including hot flushes, night sweats and mood swings. Low oestradiol can also cause osteoporosis.",Hormones
 progesterone,Progesterone,"Progesterone is a steroid hormone produced in the corpus luteum and the adrenal glands. Its main role is to prepare the body for and support a pregnancy. It is produced in increasing amounts in the second half of the menstrual cycle. Progesterone is normally tested on day 21 of your menstrual cycle to assess whether ovulation has taken place. 
@@ -114,11 +106,9 @@ pregnenolone,Pregnenolone,"Pregnenolone is a chemical that is a precursor to all
 beta-hcg,Beta HCG,HCG is a pregnancy hormone produced by the placenta when a fertilised egg implants in the uterine wall. The hormone hCG starts to be produced around six days after fertilisation and can usually be detected 10 days after a missed menstrual period.,Hormones
 igf1,IGF1,"Insulin-Like Growth Factor 1 (Somatomedin C) is a hormone which helps to control how rapidly the body's cells grow and reproduce. Although a high level of IGF-1 is necessary for growth in children, there are negative implications in adulthood.",Hormones
 testosterone-cortisol,Testosterone : Cortisol,"The Testosterone/Cortisol (T:C) ratio is a marker which shows promise in assessing whether athletes are recovering well after intense training. Testosterone is an anabolic hormone which helps to build muscle, produce red blood cells and increase aerobic metabolism in muscles. Cortisol is a catabolic hormone working antagonistically with testosterone, inhibiting protein synthesis and blocking anabolic signalling. The T:C ratio is more sensitive to the stresses of training than either measure alone. Over time it can be trended to see how well you are recovering.",Hormones
-macroprolactin-1,Macroprolactin,A macroprolactin test may be advised by one of our doctors to help understand whether a high prolactin reading is significant.,Hormones
 estriol,Estriol,NA,Hormones
-peg-native,PEG : Native,NA,Hormones
-monomeric-prolactin-post-peg,Monomeric Prolactin Post PEG,NA,Hormones
 intact-pth,Intact PTH,"Parathyroid hormone (PTH) is important in controlling blood calcium levels. When calcium levels are low, the parathyroid gland releases PTH into the bloodstream. PTH is able to retrieve calcium from bone, stimulate vitamin D activation in the kidneys and suppress calcium excretion in the urine.",Hormones
+hormone-phase,Hormone Phase,NA,Hormones
 free-t3,Free T3,"Triiodothyronine (T3) is the more active of the two thyroid hormones produced by the thyroid gland. Most T3 is bound to protein in the blood. Free T3 measures the level of T3 that is free, or unbound to protein, and is available to regulate metabolism.",Thyroid Hormones
 free-thyroxine,Free Thyroxine,"Thyroxine (T4) is one of two hormones produced by the thyroid gland. It works to speed up the rate of your metabolism. Most T4 is bound to carrier proteins in the blood, but it is only the free, or unbound T4 that is active in the body, which is measured in this test.",Thyroid Hormones
 tsh,TSH,"The thyroid is a gland at the base of your neck responsible for a number of metabolic processes, including energy expenditure, cardiac function, muscle physiology and substrate turnover. Disturbances in your thyroid function can lead to excess hormone levels (overactive) or diminished levels (underactive), both of which can lead to a decrease in athletic performance.
@@ -141,7 +131,6 @@ glucose,Glucose ,"This test looks for the presence of glucose in your urine. Glu
 
 A urine glucose test is useful in determining if blood glucose levels are too high, which may be a sign of diabetes.",Diabetes
 glucose-random,Glucose - Random,"The random blood glucose test measures the level of sugar in your blood and is an indicator of how well your body is metabolising sugars to store in your cells. It is most useful when analysed in conjunction with other sugar markers, such as HbA1c.",Diabetes
-atypical-antibody-screen-1,Atypical Antibody Screen,NA,Autoimmunity
 anti-achr-antibodies,Anti-AChR Antibodies,"Anti-AchR antibodies, or Acetylcholine Receptor Autoantibodies are proteins which target and attack certain receptors in the body. This significantly and progressively reduces the number of nerve impulses which can be transmitted between the brain and muscles.",Autoimmunity
 adrenal-antibodies,Adrenal Antibodies,NA,Autoimmunity
 mitochondrial-antibodies,Mitochondrial Antibodies,NA,Autoimmunity
@@ -153,7 +142,6 @@ gastric-parietal-cell-antibodies,Gastric Parietal Cell Antibodies,"Parietal cell
 
 Gastric parietal cells antibodies are associated with autoimmune gastritis and pernicious anaemia. This test helps to find out more about the cause of a vitamin B12 deficiency.",Autoimmunity
 thyroid-peroxidase-antibodies,Thyroid Peroxidase Antibodies,Thyroid peroxidase is an enzyme which is produced in the thyroid gland and is important for converting T4 to the biologically active T3. This test looks for antibodies to thyroid peroxidase which indicates that the body's immune system is attacking the thyroid gland and impairing its function.,Autoimmunity
-anti-ccp-antibodies-1,Anti CCP Antibodies,"Anti-CCP antibodies, or anti-cyclic citrullinated peptide antibodies are molecules which target certain proteins in the body for destruction.This test is commonly used to distinguish rheumatoid arthritis from other types of arthritis.",Autoimmunity
 anti-cen-p-antibodies,Anti CEN-P Antibodies,NA,Autoimmunity
 anti-jo1-antibodies,Anti Jo1 Antibodies,NA,Autoimmunity
 anti-la-ss-b-antibodies,Anti La SS-B Antibodies,NA,Autoimmunity
@@ -161,7 +149,6 @@ anti-u1rnp-antibodies,Anti U1RNP Antibodies,NA,Autoimmunity
 anti-ro-ss-a-antibodies,Anti Ro SS-A Antibodies,NA,Autoimmunity
 anti-scl-70-antibodies,Anti Scl 70 Antibodies,NA,Autoimmunity
 anti-sm-antibodies,Anti Sm Antibodies,NA,Autoimmunity
-islet-cell-antibodies-1,Islet Cell Antibodies,"Type 1 diabetes is a condition caused by a lack of insulin due to autoimmune processes destroying the insulin-producing beta cells in the pancreas. In contrast, type 2 diabetes primarily results from the body's resistance to the effects of insulin (insulin resistance) and does not involve autoimmune processes. Islet cell antibodies are diabetes-related autoantibodies produced by the immune system associated with type 1 diabetes.",Autoimmunity
 ovarian-antibodies,Ovarian Antibodies,NA,Autoimmunity
 histoplasmosis-antibodies,Histoplasmosis Antibodies,NA,Autoimmunity
 intrinsic-factor-antibodies,Intrinsic Factor Antibodies,"Intrinsic factor is produced in the stomach and helps extract vitamin B12 from the foods we eat. Interference in its production or activity can reduce the absorption of vitamin B12. Intrinsic factor antibodies are produced by the immune system. Intrinsic factor is necessary to extract vitamin B12 from the food we eat. Without sufficient intrinsic factor available, vitamin B12 is unabsorbed and the body cannot produce enough red blood cells which leads to the autoimmune condition pernicious anaemia.",Autoimmunity
@@ -267,9 +254,7 @@ epstein-barr-virus-viral-capsid-antigen-igg,Epstein-Barr Virus Viral Capsid Anti
 
 The Epstein-Barr Virus (EBV) is a member of the herpes virus family that causes glandular fever. Once infected, EBV remains in the body for the rest of the individual’s life, but the virus often presents no symptoms unless the immune system is compromised which allows the virus to reactivate. VCA IgG antibodies target the viral capsid antigen found on the virus.",Immunity
 epstein-barr-virus-viral-capsid-antigen-igm,Epstein-Barr Virus Viral Capsid Antigen IgM,"The Epstein-Barr Virus (EBV) is a member of the herpes virus family that causes glandular fever. Once infected, EBV remains in the body for the rest of the individuals life, but the virus often presents no symptoms unless the immune system is compromised which allows the virus to reactivate. Spread through the saliva, it is estimated that around 95% of people in the UK will have been infected by EBV by the time they are 40.",Immunity
-epstein-barr-virus-pcr-1,Epstein-Barr Virus PCR,NA,Immunity
 giardia-antibodies,Giardia Antibodies,NA,Immunity
-herpes-simplex-virus-12-igm,Herpes simplex Virus 1&2 IgM,"The herpes simplex virus causes herpes, a common sexually transmitted disease that causes small blisters on the mouth or genitals.  In response to a herpes infection, the body produces antibodies to fight the virus. IgM antibodies indicate an active infection.",Immunity
 herpes-simplex-virus-1-igg,Herpes simplex Virus 1 IgG,"The herpes simplex virus causes herpes, a common sexually transmitted disease. Herpes simplex viruses are categorised into two types: herpes type 1 (HSV-1, or oral herpes) and herpes type 2 (HSV-2, or genital herpes). 
 
 In response to a herpes infection, the body produces antibodies to fight the virus.",Immunity
@@ -283,9 +268,6 @@ immunoglobulin-m,Immunoglobulin M,"Immunoglobulins or antibodies, play an import
 leishmanial-antibodies,Leishmanial Antibodies,NA,Immunity
 leptospira-antibodies,Leptospira Antibodies,NA,Immunity
 syphilis-antibodies,Syphilis Antibodies,"Syphilis is a sexually transmitted disease caused by the bacterium Treponema pallidum, spread through sexual contact. Which is important to test for and treat as the infection can cause a range of health problems if left untreated. 
-
-Antibodies are produced by the immune system when there is an infection in the body. Checking for syphilis specific antibodies in the body helps to identify an infection.",Immunity
-syphilis-antibodies-1,Syphilis Antibodies,"Syphilis is a sexually transmitted disease caused by the bacterium Treponema pallidum, spread through sexual contact. Which is important to test for and treat as the infection can cause a range of health problems if left untreated. 
 
 Antibodies are produced by the immune system when there is an infection in the body. Checking for syphilis specific antibodies in the body helps to identify an infection.",Immunity
 varicella-zoster-igg,Varicella Zoster IgG,"Varicella Zoster is another name for the virus which causes chickenpox and shingles. It is a type of herpes virus and tends to infect a large proportion of the population at a young age, causing chicken pox, and from there on it lays dormant in the nerve cells. However, in about 25% of people,  the virus may reactivate later in life, presenting itself as shingles, a painful blistering rash focussed on one particular area of the body.
@@ -314,11 +296,6 @@ This test measures Measles IgM antibodies which are part of the immune systems r
 mumps-igm,Mumps IgM,"Mumps caused by a virus from the Paramyxoviridae family, transmitted through air droplets or through direct contact with an infected person. Symptoms begin very generally with fever, headache and muscle pain, succeeded by large swellings in the neck as the salivary glands become inflamed and swollen.
 
 When infected with the virus, the immune system produces the antibody known as IgM initially, to help the body to destroy the virus.",Immunity
-parvovirus-b19-igg-1,Parvovirus B19 IgG,"Parvovirus B19, also known as fifth disease or 'slapped cheek', is a virus mostly affecting children. It is highly infectious, and is transmitted through air droplets or via direct contact with an infected individual. Symptoms began with fever, diarrhoea and nausea, followed by a very red rash forming on the cheeks - slapped cheek. A rash, the most common symptom in adults, then breaks out all over the body.
-
-During pregnancy, a baby may rarely develop severe anemia caused by its mother’s infection with fifth disease, and the woman may have a miscarriage. However this is not common, it happens less than 5% of the time among all pregnant women with parvovirus B19 infection, and it happens more commonly during the first half of pregnancy.
-
-Several weeks after infection with Parvovirus B19, the immune system produces the antibody IgG to protect against being infected again in the future.",Immunity
 parvovirus-b19-igm,Parvovirus B19 IgM,"Parvovirus B19, also known as fifth disease or 'slapped cheek', is a virus mostly affecting children. It is highly infectious, and is transmitted through air droplets or via direct contact with an infected individual. Symptoms began with fever, diarrhoea and nausea, followed by a very red rash forming on the cheeks - slapped cheek. A rash, the most common symptom in adults, then breaks out all over the body.
 
 During pregnancy, a baby may rarely develop severe anemia caused by its mother’s infection with fifth disease, and the woman may have a miscarriage. However this is not common, it happens less than 5% of the time among all pregnant women with parvovirus B19 infection, and it happens more commonly during the first half of pregnancy.
@@ -331,8 +308,6 @@ rickettsia-rickettsii-igg,Rickettsia rickettsii IgG,NA,Immunity
 rickettsia-rickettsii-igm,Rickettsia rickettsii IgM,NA,Immunity
 rickettsia-typhi-igg,Rickettsia typhi IgG,NA,Immunity
 rickettsia-typhi-igm,Rickettsia typhi IgM,NA,Immunity
-rubella-igm,Rubella IgM,"Rubella is a viral infection otherwise known as German Measles. The virus causes a red rash and flu-like symptoms and although the virus is usually harmless, if a woman gets rubella in the first three months of her pregnancy, serious birth defects or a miscarriage may occur.",Immunity
-rubella-igg-1,Rubella IgG,"Rubella is a viral infection otherwise known as German Measles. The virus causes a red rash and flu-like symptoms and although the virus is usually harmless, if a woman gets rubella in the first three months of her pregnancy, serious birth defects or a miscarriage may occur.",Immunity
 tetanus-antitoxin,Tetanus Antitoxin,NA,Immunity
 toxoplasma-igg,Toxoplasma IgG,"Toxoplasmosis is an infection caused by the toxoplasma parasite. Infection usually occurs through eating undercooked, contaminated meat or cleaning a cat’s litter box when the cat has shed Toxoplasma in its faeces. Often those who are infected  have very few symptoms because a healthy person’s immune system usually keeps the parasite from causing illness. However, those with compromised immune systems and pregnant women should be cautious as an infection can cause serious health problems and affect the unborn child. 
 
@@ -342,11 +317,8 @@ toxoplasma-igm,Toxoplasma IgM,"Toxoplasmosis is an infection caused by the toxop
 When the body is exposed to the toxoplasma parasite, the immune system responds by producing antibodies to the parasite. IgM antibodies are the first to be produced by the body in response to a Toxoplasma infection.",Immunity
 varicella-zoster-igm,Varicella zoster IgM,"Varicella zoster is the virus which causes chickenpox, following the initial infection it can lie dormant in the spinal cord, reactivating to cause shingles. Immunoglobulin M (IgM) antibodies are produced by the immune system during the initial chickenpox infection, and can be present during an occurrence of shingles.",Immunity
 zika-virus-igg,Zika Virus IgG,"If the body is infected with bacteria, viruses or any other harmful microorganisms, the immune system produces antibodies to fight the infection. IgG antibodies are produced in a delayed response to an infection and can be retained in the body for a long time. Testing for zika virus specific IgG antibodies can help to confirm a zika virus infection.",Immunity
-hinfluenzae-b-antibodies,H.influenzae B Antibodies,NA,Immunity
 rabies-favn-antibodies,Rabies FAVN Antibodies,NA,Immunity
 brucella-antibodies,Brucella Antibodies,NA,Immunity
-measles-igg-1,Measles IgG,"Measles IgG provides a measure of immunity to measles virus. IgG antibody production is triggered by immunisation in childhood, or by a previous measles infection.",Immunity
-polio-abs-neutralisation,Polio AB's - Neutralisation,NA,Immunity
 zika-virus-igm,Zika Virus IgM,"If the body is infected with bacteria, viruses or any other harmful microorganisms, the immune system produces antibodies to fight the infection. IgM antibodies are primary antibodies released into the blood early in the immune response.
 
 Zika virus-specific IgM antibodies are generally present in the blood around 4 days after infection and may continue to circulate in the blood for up to 12 weeks post exposure.",Immunity
@@ -387,7 +359,6 @@ DRVVT control is the time taken for the control sample to clot.",Clotting Status
 factor-viiic-assay,Factor VIIIc Assay,NA,Clotting Status
 von-willebrand-factor-activity,Von Willebrand Factor Activity,NA,Clotting Status
 von-willebrand-factor-antigen,Von Willebrand Factor Antigen,NA,Clotting Status
-chromium-whole-blood-1,Chromium - Whole Blood,NA,Trace Elements
 copper,Copper,"Copper is an essential mineral that the body incorporates into enzymes. This helps in the regulation of iron metabolism, energy production and the function of the nervous system. A copper test result is usually evaluated in context with and compared to ceruloplasmin levels.",Trace Elements
 blood-lead,Blood Lead,"Lead is a metal that in the past, was used in paints, petrol and household products. Because lead is all around us, it is likely that we all have a little in our system. But high exposure to lead can be dangerous leading to a range of health problems. The body stores lead in the teeth and bones where it accumulates over time.",Trace Elements
 chromium-serum,Chromium - Serum,NA,Trace Elements
@@ -399,9 +370,3 @@ nickel-serum,Nickel - Serum,"Nickel is a naturally occurring metallic element th
 Nickel come into contact with the body in two ways; through breathing in dust and fumes containing nickel or from contact with the skin. Exposure to nickel can cause irritation of the skin and eyes, allergic reactions in the skin and respiratory tract, asthma, inflammation of the lungs and cancer of the lungs and nose.",Trace Elements
 mercury-creatinine,Mercury : Creatinine,NA,Trace Elements
 mercury-urine,Mercury - Urine,"Mercury is a toxic heavy metal that can damage the brain, nervous system, kidneys and lungs when the body is exposed to high levels.",Trace Elements
-nickel-creatinine,Nickel : Creatinine,"Nickel is a naturally occurring metallic element that can be found in alloys and is used in the manufacture of stainless steel, coins, magnets, chemical and food process equipment and pigments for paint, pottery, glass and plastics and catalysts in the chemical industry. Nickel is also often found in jewellery.
-
-Nickel come into contact with the body in two ways; through breathing in dust and fumes containing nickel or from contact with the skin. Exposure to nickel can cause irritation of the skin and eyes, allergic reactions in the skin and respiratory tract, asthma, inflammation of the lungs and cancer of the lungs and nose.",Trace Elements
-nickel-urine,Nickel - Urine,"Nickel is a naturally occurring metallic element that can be found in alloys and is used in the manufacture of stainless steel, coins, magnets, chemical and food process equipment and pigments for paint, pottery, glass and plastics and catalysts in the chemical industry. Nickel is also often found in jewellery.
-
-Nickel come into contact with the body in two ways; through breathing in dust and fumes containing nickel or from contact with the skin. Exposure to nickel can cause irritation of the skin and eyes, allergic reactions in the skin and respiratory tract, asthma, inflammation of the lungs and cancer of the lungs and nose.",Trace Elements
