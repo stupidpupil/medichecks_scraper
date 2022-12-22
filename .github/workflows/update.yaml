@@ -49,8 +49,14 @@ jobs:
         products |>
           readr::write_csv("output/products.csv")
 
-        get_medichecks_biomarkers() |>
-          dplyr::filter(biomarker_handle %in% colnames(products)) |>
+        stopifnot(nrow(products) > 100)
+
+        biomarkers <- get_medichecks_biomarkers() |>
+          dplyr::filter(biomarker_handle %in% colnames(products))
+
+        stopifnot(nrow(biomarkers) > 100)
+
+        biomarkers |>
           readr::write_csv("output/biomarkers.csv")
       shell: Rscript {0}
 
