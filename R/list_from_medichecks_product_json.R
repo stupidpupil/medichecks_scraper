@@ -39,11 +39,21 @@ list_from_medichecks_product_json <- function(medichecks_product_json){
     TRUE ~ NA
   )
 
+  biomarkers_count <- tags |>
+    purrr::keep(function(x){x |> stringr::str_detect("^info_biomarkers_\\d+$")}) |>
+    stringr::str_extract("\\d+$") |> unlist() |> as.integer() |> max()
+
+  turnaround_days <- tags |>
+    purrr::keep(function(x){x |> stringr::str_detect("^info_results_\\d+$")}) |>
+    stringr::str_extract("\\d+$") |> unlist() |> as.integer() |> max()
+
   list(
     id = id,
     title = title,
     handle = handle,
     biomarkers = biomarkers,
+    biomarkers_count = biomarkers_count,
+    turnaround_days = turnaround_days,
     price_pence = price_pence,
     venous_only = venous_only
   )
