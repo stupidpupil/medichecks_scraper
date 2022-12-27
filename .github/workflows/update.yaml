@@ -43,8 +43,14 @@ jobs:
     - name: Update output
       run: |
         devtools::load_all()
+
+        denylist <- c(
+          "ige-immunoglobulin-e-blood-test"
+        )
+
         products <- get_medichecks_products() |>
-          products_to_products_info_tibble() 
+          products_to_products_info_tibble()  |>
+          dplyr::filter(!(product_handle %in% denylist))
 
         products |>
           readr::write_csv("output/products.csv")
