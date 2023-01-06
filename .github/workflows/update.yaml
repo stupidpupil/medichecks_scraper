@@ -53,9 +53,14 @@ jobs:
           dplyr::filter(!(product_handle %in% denylist))
 
         products |>
-          readr::write_csv("output/products.csv")
+          readr::write_csv("output/all_products.csv")
 
         stopifnot(nrow(products) > 100)
+
+        products |>
+          dplyr::filter(available) |>
+          dplyr::select(-available) |>
+          readr::write_csv("output/products.csv")
 
         biomarkers <- get_medichecks_biomarkers() |>
           dplyr::filter(biomarker_handle %in% colnames(products))

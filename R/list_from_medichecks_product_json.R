@@ -20,12 +20,13 @@ list_from_medichecks_product_json <- function(medichecks_product_json){
   stopifnot(length(medichecks_product_json$variants) == 1)
 
   price <- medichecks_product_json$variants[[1]]$price
+  available <- medichecks_product_json$variants[[1]]$available
 
   stopifnot(price |> stringr::str_detect("^\\d+\\.\\d{2}$"))
 
   price_pence <- price |> stringr::str_remove("\\.") |> as.integer()
 
-  tags <- medichecks_product_json$tags |> stringr::str_split(",\\s*", simplify=TRUE)
+  tags <- medichecks_product_json$tags |> stringr::str_split(",\\s*", simplify=TRUE)#
 
   venous_only <- dplyr::case_when(
     ("collection_method_blood_delivery" %in% tags) ~ FALSE,
@@ -55,6 +56,7 @@ list_from_medichecks_product_json <- function(medichecks_product_json){
     biomarkers_count = biomarkers_count,
     turnaround_days = turnaround_days,
     price_pence = price_pence,
-    venous_only = venous_only
+    venous_only = venous_only,
+    available = available
   )
 }
