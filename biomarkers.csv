@@ -107,6 +107,8 @@ beta-hcg,Beta HCG,HCG is a pregnancy hormone produced by the placenta when a fer
 igf1,IGF1,"Insulin-Like Growth Factor 1 (Somatomedin C) is a hormone which helps to control how rapidly the body's cells grow and reproduce. Although a high level of IGF-1 is necessary for growth in children, there are negative implications in adulthood.",Hormones
 testosterone-cortisol,Testosterone : Cortisol,"The Testosterone/Cortisol (T:C) ratio is a marker which shows promise in assessing whether athletes are recovering well after intense training. Testosterone is an anabolic hormone which helps to build muscle, produce red blood cells and increase aerobic metabolism in muscles. Cortisol is a catabolic hormone working antagonistically with testosterone, inhibiting protein synthesis and blocking anabolic signalling. The T:C ratio is more sensitive to the stresses of training than either measure alone. Over time it can be trended to see how well you are recovering.",Hormones
 estriol,Estriol,NA,Hormones
+peg-native,PEG : Native,NA,Hormones
+monomeric-prolactin-post-peg,Monomeric Prolactin Post PEG,NA,Hormones
 intact-pth,Intact PTH,"Parathyroid hormone (PTH) is important in controlling blood calcium levels. When calcium levels are low, the parathyroid gland releases PTH into the bloodstream. PTH is able to retrieve calcium from bone, stimulate vitamin D activation in the kidneys and suppress calcium excretion in the urine.",Hormones
 hormone-phase,Hormone Phase,NA,Hormones
 free-t3,Free T3,"Triiodothyronine (T3) is the more active of the two thyroid hormones produced by the thyroid gland. Most T3 is bound to protein in the blood. Free T3 measures the level of T3 that is free, or unbound to protein, and is available to regulate metabolism.",Thyroid Hormones
@@ -309,6 +311,7 @@ rickettsia-rickettsii-igg,Rickettsia rickettsii IgG,NA,Immunity
 rickettsia-rickettsii-igm,Rickettsia rickettsii IgM,NA,Immunity
 rickettsia-typhi-igg,Rickettsia typhi IgG,NA,Immunity
 rickettsia-typhi-igm,Rickettsia typhi IgM,NA,Immunity
+rubella-igm,Rubella IgM,"Rubella is a viral infection otherwise known as German Measles. The virus causes a red rash and flu-like symptoms and although the virus is usually harmless, if a woman gets rubella in the first three months of her pregnancy, serious birth defects or a miscarriage may occur.",Immunity
 tetanus-antitoxin,Tetanus Antitoxin,NA,Immunity
 toxoplasma-igg,Toxoplasma IgG,"Toxoplasmosis is an infection caused by the toxoplasma parasite. Infection usually occurs through eating undercooked, contaminated meat or cleaning a cat’s litter box when the cat has shed Toxoplasma in its faeces. Often those who are infected  have very few symptoms because a healthy person’s immune system usually keeps the parasite from causing illness. However, those with compromised immune systems and pregnant women should be cautious as an infection can cause serious health problems and affect the unborn child. 
 
@@ -370,3 +373,9 @@ nickel-serum,Nickel - Serum,"Nickel is a naturally occurring metallic element th
 Nickel come into contact with the body in two ways; through breathing in dust and fumes containing nickel or from contact with the skin. Exposure to nickel can cause irritation of the skin and eyes, allergic reactions in the skin and respiratory tract, asthma, inflammation of the lungs and cancer of the lungs and nose.",Trace Elements
 mercury-creatinine,Mercury : Creatinine,NA,Trace Elements
 mercury-urine,Mercury - Urine,"Mercury is a toxic heavy metal that can damage the brain, nervous system, kidneys and lungs when the body is exposed to high levels.",Trace Elements
+nickel-creatinine,Nickel : Creatinine,"Nickel is a naturally occurring metallic element that can be found in alloys and is used in the manufacture of stainless steel, coins, magnets, chemical and food process equipment and pigments for paint, pottery, glass and plastics and catalysts in the chemical industry. Nickel is also often found in jewellery.
+
+Nickel come into contact with the body in two ways; through breathing in dust and fumes containing nickel or from contact with the skin. Exposure to nickel can cause irritation of the skin and eyes, allergic reactions in the skin and respiratory tract, asthma, inflammation of the lungs and cancer of the lungs and nose.",Trace Elements
+nickel-urine,Nickel - Urine,"Nickel is a naturally occurring metallic element that can be found in alloys and is used in the manufacture of stainless steel, coins, magnets, chemical and food process equipment and pigments for paint, pottery, glass and plastics and catalysts in the chemical industry. Nickel is also often found in jewellery.
+
+Nickel come into contact with the body in two ways; through breathing in dust and fumes containing nickel or from contact with the skin. Exposure to nickel can cause irritation of the skin and eyes, allergic reactions in the skin and respiratory tract, asthma, inflammation of the lungs and cancer of the lungs and nose.",Trace Elements
