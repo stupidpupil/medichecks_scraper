@@ -28,15 +28,20 @@ list_from_medichecks_product_json <- function(medichecks_product_json){
 
   tags <- medichecks_product_json$tags |> stringr::str_split(",\\s*", simplify=TRUE)#
 
-  venous_only <- dplyr::case_when(
-    ("collection_method_blood_delivery" %in% tags) ~ FALSE,
+
+  venous_available <- dplyr::case_when(
     ("collection_method_blood_in-store" %in% tags) ~ TRUE,
     ("collection_method_blood_nurse-visit" %in% tags) ~ TRUE,
-    ("collection_method_london_clinic" %in% tags) ~ TRUE,
+    ("collectionMethod%Venous" %in% tags) ~ TRUE
+  )
+
+
+  venous_only <- dplyr::case_when(
+    ("collection_method_blood_delivery" %in% tags) ~ FALSE,
     # Pre 22 December 2022
     !("escmed|Sample Type|Blood" %in% tags) ~ NA,
     ("collectionMethod%Finger prick" %in% tags) ~ FALSE,
-    ("collectionMethod%Venous" %in% tags) ~ TRUE,
+    venous_available ~ TRUE,
     TRUE ~ NA
   )
 
@@ -57,6 +62,7 @@ list_from_medichecks_product_json <- function(medichecks_product_json){
     turnaround_days = turnaround_days,
     price_pence = price_pence,
     venous_only = venous_only,
+    venous_available = venous_available,
     available = available
   )
 }
