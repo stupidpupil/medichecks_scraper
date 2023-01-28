@@ -48,7 +48,13 @@ jobs:
           "ige-immunoglobulin-e-blood-test"
         )
 
-        products <- get_medichecks_products() |>
+        products <- get_medichecks_products() 
+
+        products |>
+          products_to_exchange_format() |>
+          jsonlite::write_json("output/products.json")  
+
+        products <- products |>
           products_to_products_info_tibble()  |>
           dplyr::filter(!(product_handle %in% denylist))
 
