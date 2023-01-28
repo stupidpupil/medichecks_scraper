@@ -47,8 +47,6 @@ products_to_exchange_format <- function(products){
 
       # TODO: Remove Sodium, 1000661000000107
       # As Medichecks won't report this for fingerpick tests
-      
-
 
       return(prod)
     })

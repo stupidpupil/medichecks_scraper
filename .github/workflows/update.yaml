@@ -54,6 +54,11 @@ jobs:
           products_to_exchange_format() |>
           jsonlite::write_json("output/products.json")  
 
+        products |>
+          products_to_exchange_format() |>
+          complete_exchange_format() |>
+          jsonlite::write_json("output/exchange.json")
+
         products <- products |>
           products_to_products_info_tibble()  |>
           dplyr::filter(!(product_handle %in% denylist))
