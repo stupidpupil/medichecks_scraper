@@ -37,7 +37,7 @@ products_to_exchange_format <- function(products){
     })
 
 
-  stopifnot(length(products) < 5)
+  stopifnot(length(products) > 5)
 
   stopifnot(products |> 
     purrr::keep(function(prod){prod$name |> stringr::str_detect("\\b[Tt]estosterone\\b")}) |> 
