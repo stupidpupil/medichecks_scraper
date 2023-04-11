@@ -83,7 +83,11 @@ products_to_exchange_format <- function(products){
     })
 
 
-  venous_collection_price_pence <- get_medichecks_venous_collection_price_pence()
+  product_url_for_venous_collection_price_pence <- products |> 
+    purrr::keep(\(prod) !is.na(prod$venous_available) & prod$venous_available ) |> 
+    purrr::map(\(prod) prod$url) |> dplyr::first()
+
+  venous_collection_price_pence <- get_medichecks_venous_collection_price_pence(product_url_for_venous_collection_price_pence)
 
   venous <- products |>
     purrr::keep(function(prod) {
