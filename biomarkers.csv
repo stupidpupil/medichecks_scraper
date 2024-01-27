@@ -86,7 +86,6 @@ leptin,Leptin,NA,Hormones
 pregnenolone,Pregnenolone,"Pregnenolone is a chemical that is a precursor to all steroid hormones in the body. For normal steroid hormone production, cholesterol is converted into pregnenolone in the adrenal glands and then several enzymes complete the production of multiple hormones. A Pregnenolone test helps to monitor and/or rule out two of the more rare forms of congenital adrenal hyperplasia (CAH).",Hormones
 beta-hcg,Beta HCG,HCG is a pregnancy hormone produced by the placenta when a fertilised egg implants in the uterine wall. The hormone hCG starts to be produced around six days after fertilisation and can usually be detected 10 days after a missed menstrual period.,Hormones
 testosterone-cortisol,Testosterone : Cortisol,"The Testosterone/Cortisol (T:C) ratio is a marker which shows promise in assessing whether athletes are recovering well after intense training. Testosterone is an anabolic hormone which helps to build muscle, produce red blood cells and increase aerobic metabolism in muscles. Cortisol is a catabolic hormone working antagonistically with testosterone, inhibiting protein synthesis and blocking anabolic signalling. The T:C ratio is more sensitive to the stresses of training than either measure alone. Over time it can be trended to see how well you are recovering.",Hormones
-estriol,Estriol,NA,Hormones
 intact-pth,Intact PTH,"Parathyroid hormone (PTH) is important in controlling blood calcium levels. When calcium levels are low, the parathyroid gland releases PTH into the bloodstream. PTH is able to retrieve calcium from bone, stimulate vitamin D activation in the kidneys and suppress calcium excretion in the urine.",Hormones
 free-t3,Free T3,"Triiodothyronine (T3) is the more active of the two thyroid hormones produced by the thyroid gland. Most T3 is bound to protein in the blood. Free T3 measures the level of T3 that is free, or unbound to protein, and is available to regulate metabolism.",Thyroid Hormones
 free-thyroxine,Free Thyroxine,"Thyroxine (T4) is one of two hormones produced by the thyroid gland. It works to speed up the rate of your metabolism. Most T4 is bound to carrier proteins in the blood, but it is only the free, or unbound T4 that is active in the body, which is measured in this test.",Thyroid Hormones
@@ -128,17 +127,14 @@ anti-ro-ss-a-antibodies,Anti Ro SS-A Antibodies,NA,Autoimmunity
 anti-scl-70-antibodies,Anti Scl 70 Antibodies,NA,Autoimmunity
 anti-sm-antibodies,Anti Sm Antibodies,NA,Autoimmunity
 ovarian-antibodies,Ovarian Antibodies,NA,Autoimmunity
-histoplasmosis-antibodies,Histoplasmosis Antibodies,NA,Autoimmunity
 intrinsic-factor-antibodies,Intrinsic Factor Antibodies,"Intrinsic factor is produced in the stomach and helps extract vitamin B12 from the foods we eat. Interference in its production or activity can reduce the absorption of vitamin B12. Intrinsic factor antibodies are produced by the immune system. Intrinsic factor is necessary to extract vitamin B12 from the food we eat. Without sufficient intrinsic factor available, vitamin B12 is unabsorbed and the body cannot produce enough red blood cells which leads to the autoimmune condition pernicious anaemia.",Autoimmunity
 thyroglobulin-antibodies,Thyroglobulin Antibodies,"This test looks for antibodies to thyroglobulin, a protein which is specific to the thyroid gland. Under normal circumstances it does not enter the bloodstream, but if your thyroid is inflamed or under attack from the body's own immune system, then thyroglobulin can be secreted and antibodies detected.
 
 Most cases of thyroid disease are caused by an autoimmune condition where the thyroid gland is attacked by the body's own immune system. This can cause the thyroid gland to produce more thyroid hormone (as in the case of Graves' disease) or to produce less as the cells in the thyroid gland are gradually destroyed (as in the case of Hashimoto's thyroiditis).",Autoimmunity
-meningococcal-antibodies,Meningococcal Antibodies,NA,Autoimmunity
 striated-muscle-antibodies,Striated Muscle Antibodies,NA,Autoimmunity
 musk-antibodies,MuSK Antibodies,"Anti-MuSK antibodies, or anti-muscle specific kinase antibodies are proteins produced against particular receptors in the body. These receptors are called muscle specific kinase, and are involved in transmitting signals between the brain and muscles, allowing us to move.",Autoimmunity
 pneumococcal-antibodies,Pneumococcal Antibodies,NA,Autoimmunity
 rheumatoid-factor-turbidimetry,Rheumatoid Factor Turbidimetry,NA,Autoimmunity
-strongyloides-antibodies,Strongyloides Antibodies,NA,Autoimmunity
 tsh-receptor-antibodies,TSH Receptor Antibodies,"TSH receptor antibodies cause Graves' disease hyperthyroidism. Graves’ disease is caused by the direct stimulation of the thyroid cells by TSH receptor stimulating antibodies. All forms of autoimmune thyrotoxicosis (Graves’ disease, Hashitoxicosis, neonatal thyrotoxicosis) are caused by the production of TSH receptor antibodies. These antibodies stimulate the thyroid gland independent of the normal regulated TSH stimulation.",Autoimmunity
 salivary-antibodies,Salivary Antibodies,NA,Autoimmunity
 extractable-nuclear-antigen,Extractable Nuclear Antigen,"An extractable nuclear antigen (ENA) screen looks for the presence of one or more autoantibodies in the blood that react with proteins in the cell nucleus. 
@@ -219,7 +215,6 @@ cytomegalovirus-igg,Cytomegalovirus IgG,"Cytomegalovirus, or CMV is a virus of t
 
 A few weeks after being initially infected with CMV, the immune system produces an antibody called IgG.",Immunity
 ebna-igg-antibodies,EBNA IgG Antibodies,"The Epstein-Barr Virus (EBV) is a member of the herpes virus family that causes glandular fever, spread through saliva. Once infected, EBV remains in the body for the rest of the individuals life, but the virus often presents no symptoms unless the immune system is compromised which allows the virus to reactivate. EBNA, or Epstein-Barr nuclear antigens are proteins produced and expressed by EBV. The body produces EBNA IgG antibodies when infected by EBV.",Immunity
-giardia-antibodies,Giardia Antibodies,NA,Immunity
 herpes-simplex-virus-1-igg,Herpes simplex Virus 1 IgG,"The herpes simplex virus causes herpes, a common sexually transmitted disease. Herpes simplex viruses are categorised into two types: herpes type 1 (HSV-1, or oral herpes) and herpes type 2 (HSV-2, or genital herpes). 
 
 In response to a herpes infection, the body produces antibodies to fight the virus.",Immunity
@@ -231,7 +226,6 @@ immunoglobulin-a,Immunoglobulin A,"Immunoglobulins or antibodies, play an import
 immunoglobulin-g,Immunoglobulin G,"Immunoglobulins or antibodies, play an important role in the immune system and help fight against harmful bacteria and viruses in the body. There are five classes of antibodies and several subclasses. Around 70-80% of antibodies in the blood are Immunoglobulin G or IgG antibodies, capable entering the tissues and fighting infection. IgG provides the majority of antibody-based immunity. IgG antibodies form the basis of long-term protection against microorganisms and in those with a healthy immune system, sufficient IgG antibodies are produced to prevent re-infection.",Immunity
 immunoglobulin-m,Immunoglobulin M,"Immunoglobulins or antibodies, play an important role in the immune system and help fight against harmful bacteria and viruses in the body. There are five classes of antibodies and several subclasses. IgM antibodies are involved in the very early stages of an immune response and first to be made by the body when fighting a new infection, providing short-term protection.",Immunity
 leishmanial-antibodies,Leishmanial Antibodies,NA,Immunity
-leptospira-antibodies,Leptospira Antibodies,NA,Immunity
 syphilis-antibodies,Syphilis Antibodies,"Syphilis is a sexually transmitted disease caused by the bacterium Treponema pallidum, spread through sexual contact. Which is important to test for and treat as the infection can cause a range of health problems if left untreated. 
 
 Antibodies are produced by the immune system when there is an infection in the body. Checking for syphilis specific antibodies in the body helps to identify an infection.",Immunity
@@ -269,10 +263,6 @@ When infected with Parvovirus B19, the immune system produces the antibody known
 parvovirus-pcr,Parvovirus PCR,NA,Immunity
 pertussis-toxin-igg,Pertussis toxin IgG,NA,Immunity
 bordetella-iga,Bordetella IgA,NA,Immunity
-rickettsia-rickettsii-igg,Rickettsia rickettsii IgG,NA,Immunity
-rickettsia-rickettsii-igm,Rickettsia rickettsii IgM,NA,Immunity
-rickettsia-typhi-igg,Rickettsia typhi IgG,NA,Immunity
-rickettsia-typhi-igm,Rickettsia typhi IgM,NA,Immunity
 rubella-igm,Rubella IgM,"Rubella is a viral infection otherwise known as German Measles. The virus causes a red rash and flu-like symptoms and although the virus is usually harmless, if a woman gets rubella in the first three months of her pregnancy, serious birth defects or a miscarriage may occur.",Immunity
 tetanus-antitoxin,Tetanus Antitoxin,NA,Immunity
 toxoplasma-igg,Toxoplasma IgG,"Toxoplasmosis is an infection caused by the toxoplasma parasite. Infection usually occurs through eating undercooked, contaminated meat or cleaning a cat’s litter box when the cat has shed Toxoplasma in its faeces. Often those who are infected  have very few symptoms because a healthy person’s immune system usually keeps the parasite from causing illness. However, those with compromised immune systems and pregnant women should be cautious as an infection can cause serious health problems and affect the unborn child. 
@@ -283,8 +273,6 @@ toxoplasma-igm,Toxoplasma IgM,"Toxoplasmosis is an infection caused by the toxop
 When the body is exposed to the toxoplasma parasite, the immune system responds by producing antibodies to the parasite. IgM antibodies are the first to be produced by the body in response to a Toxoplasma infection.",Immunity
 varicella-zoster-igm,Varicella zoster IgM,"Varicella zoster is the virus which causes chickenpox, following the initial infection it can lie dormant in the spinal cord, reactivating to cause shingles. Immunoglobulin M (IgM) antibodies are produced by the immune system during the initial chickenpox infection, and can be present during an occurrence of shingles.",Immunity
 zika-virus-igg,Zika Virus IgG,"If the body is infected with bacteria, viruses or any other harmful microorganisms, the immune system produces antibodies to fight the infection. IgG antibodies are produced in a delayed response to an infection and can be retained in the body for a long time. Testing for zika virus specific IgG antibodies can help to confirm a zika virus infection.",Immunity
-rabies-favn-antibodies,Rabies FAVN Antibodies,NA,Immunity
-brucella-antibodies,Brucella Antibodies,NA,Immunity
 zika-virus-igm,Zika Virus IgM,"If the body is infected with bacteria, viruses or any other harmful microorganisms, the immune system produces antibodies to fight the infection. IgM antibodies are primary antibodies released into the blood early in the immune response.
 
 Zika virus-specific IgM antibodies are generally present in the blood around 4 days after infection and may continue to circulate in the blood for up to 12 weeks post exposure.",Immunity
@@ -327,11 +315,7 @@ von-willebrand-factor-activity,Von Willebrand Factor Activity,NA,Clotting Status
 von-willebrand-factor-antigen,Von Willebrand Factor Antigen,NA,Clotting Status
 blood-lead,Blood Lead,"Lead is a metal that in the past, was used in paints, petrol and household products. Because lead is all around us, it is likely that we all have a little in our system. But high exposure to lead can be dangerous leading to a range of health problems. The body stores lead in the teeth and bones where it accumulates over time.",Trace Elements
 manganese-serum,Manganese - Serum,"Manganese is a mineral used by the body to form connective tissue, produce sex hormones, blood clotting factors and aid wound healing. Manganese is also essential for the absorption of calcium and glucose regulation. Although necessary in the body in small amounts, chronic exposure to manganese can cause damage to the central nervous system. Rich sources of manganese include whole grains, nuts, leafy vegetables.",Trace Elements
-cobalt-whole-blood,Cobalt - Whole Blood,"Cobalt is an element used to produce alloys used in the manufacture of aircraft engines, magnets, grinding and cutting tools, artificial hip and knee joints. Radioactive cobalt is used for commercial and medical purposes.",Trace Elements
 mercury-blood,Mercury - Blood,"Mercury is a toxic heavy metal that can damage the brain, nervous system, kidneys and lungs when the body is exposed to high levels.",Trace Elements
-nickel-serum,Nickel - Serum,"Nickel is a naturally occurring metallic element that can be found in alloys and is used in the manufacture of stainless steel, coins, magnets, chemical and food process equipment and pigments for paint, pottery, glass and plastics and catalysts in the chemical industry. Nickel is also often found in jewellery.
-
-Nickel come into contact with the body in two ways; through breathing in dust and fumes containing nickel or from contact with the skin. Exposure to nickel can cause irritation of the skin and eyes, allergic reactions in the skin and respiratory tract, asthma, inflammation of the lungs and cancer of the lungs and nose.",Trace Elements
 mercury-creatinine,Mercury : Creatinine,NA,Trace Elements
 mercury-urine,Mercury - Urine,"Mercury is a toxic heavy metal that can damage the brain, nervous system, kidneys and lungs when the body is exposed to high levels.",Trace Elements
 nickel-creatinine,Nickel : Creatinine,"Nickel is a naturally occurring metallic element that can be found in alloys and is used in the manufacture of stainless steel, coins, magnets, chemical and food process equipment and pigments for paint, pottery, glass and plastics and catalysts in the chemical industry. Nickel is also often found in jewellery.
