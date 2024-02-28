@@ -73,8 +73,6 @@ jobs:
           dplyr::select(-available) |>
           readr::write_csv("output/products.csv")
 
-        biomarkers |>
-          readr::write_csv("output/biomarkers.csv")
       shell: Rscript {0}
 
     - name: Commit new output
