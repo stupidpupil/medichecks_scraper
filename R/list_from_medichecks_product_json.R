@@ -4,6 +4,9 @@ list_from_medichecks_product_json <- function(medichecks_product_json){
   title <- medichecks_product_json$title
   handle <- medichecks_product_json$handle
 
+  title <- title |>
+    stringr::str_extract("^(.+?)( Blood)?( Test)?$", group=1)
+
 
   # Pre 22 December 2022
   #biomarkers <- medichecks_product_json$body_html |> 
